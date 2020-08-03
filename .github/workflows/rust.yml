@@ -21,7 +21,6 @@ jobs:
     - name: "Checkout Repo"
       uses: actions/checkout@v2
     - name: Build
-      uses: 
       run: cargo build --verbose
     - name: Run tests
       run: cargo test --verbose
